@@ -51,7 +51,7 @@ function Card(props: CardProps): ReactElement {
                 <p>{capitalize(props.name)}</p>
             </div>
             <div className={`card-body card-body-${result.data.types[0]}`}>
-                <img src={`http://localhost:8080/sprites/${props.id}`} alt={props.name}/>
+                <img src={`http://localhost:8000/sprites/${props.id}`} alt={props.name}/>
                 <div className='types'>
                     {result.data.types.map((type) =>
                         <div key={type} className={`type-banner type-banner-${type}`}>
