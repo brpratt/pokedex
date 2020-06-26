@@ -1,3 +1,7 @@
+# Docker for Devs - Pokedex Frontend
+
+This repo contains the sprite service created during my "Docker for Devs" talk.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
